@@ -31,3 +31,9 @@ body {
     text-wrap: balance;
   }
 }
+.bg-custom {
+  background-image: url('https://www.vietnamworks.com/hrinsider/wp-content/uploads/2023/12/hay-lam-nhung-dieu-ban-yeu-thich-nhu-la-nhin-bau-troi-xinh-dep.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
