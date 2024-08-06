@@ -1,6 +1,7 @@
 Backend: https://github.com/nganbuithii/recruitWeb.git
+
 Front end:
-npm run dev
+$ npm run start
 
 #Trang đăng kí
 ![image](https://github.com/user-attachments/assets/6ecd05d3-ce21-43b4-951d-cad733fd1f2d)
@@ -18,7 +19,8 @@ npm run dev
 ![image](https://github.com/user-attachments/assets/5cf33346-554a-455c-b253-09a76bea11b2)
 
 #Chỉnh sửa thông tin
-![image](https://github.com/user-attachments/assets/b70a170e-d297-430a-843d-3c481740d006)
+![image](https://github.com/user-attachments/assets/56e42b2c-96a3-4bab-a280-832ae3d00c37)
+
 
 #Hồ sơ được cập nhật lại
 ![image](https://github.com/user-attachments/assets/399ce9ff-8747-4b01-9b00-bd23c2513e79)
