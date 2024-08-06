@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
+Backend: https://github.com/nganbuithii/recruitWeb.git
+Front end:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#Trang đăng kí
+![image](https://github.com/user-attachments/assets/6ecd05d3-ce21-43b4-951d-cad733fd1f2d)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#Khi đăng kí tài khoản user thành công -> chuyển qua trang login
+![image](https://github.com/user-attachments/assets/bc8f8774-87b3-4df6-b1d3-dedcba5f556b)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#Bắt lỗi nhập liệu nếu để trống
+![image](https://github.com/user-attachments/assets/692be071-29cc-4559-b5f1-18d30e3b3736)
 
-## Learn More
+#Khi login thành công
+![image](https://github.com/user-attachments/assets/c62c59d2-079f-4f3f-aef3-dc4038224fa9)
 
-To learn more about Next.js, take a look at the following resources:
+#Xem thông tin hồ sơ cá nhân
+![image](https://github.com/user-attachments/assets/5cf33346-554a-455c-b253-09a76bea11b2)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#Chỉnh sửa thông tin
+![image](https://github.com/user-attachments/assets/b70a170e-d297-430a-843d-3c481740d006)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#Hồ sơ được cập nhật lại
+![image](https://github.com/user-attachments/assets/399ce9ff-8747-4b01-9b00-bd23c2513e79)
 
-## Deploy on Vercel
+#Đăng xuất, xóa người dùng hiện tại về trang login
+#Khi chưa login người dùng mà vào /dashboard sẽ chuyển user qua trang 404
+![image](https://github.com/user-attachments/assets/dcdc1e6e-629a-4a53-8a98-a27c97fca30c)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+
+
