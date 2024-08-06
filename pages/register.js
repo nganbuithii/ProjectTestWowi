@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form';
-import { useRouter } from 'next/router'; // Đừng quên import useRouter
+import { useRouter } from 'next/router'; 
 import { useState } from 'react';
 import '../app/globals.css';
 import Link from 'next/link';
@@ -13,7 +13,7 @@ export default function Register() {
         try {
             const urlEncodedData = new URLSearchParams();
             urlEncodedData.append('name', data.fullName);
-            urlEncodedData.append('email', data.username);
+            urlEncodedData.append('email', data.email);
             urlEncodedData.append('password', data.password);
 
             const response = await fetch('http://localhost:8100/api/v1/users/create', {
@@ -55,13 +55,13 @@ export default function Register() {
                 </div>
 
                 <div className="mb-4">
-                    <label htmlFor="username" className="block text-gray-700 mb-2">Username</label>
+                    <label htmlFor="email" className="block text-gray-700 mb-2">Email</label>
                     <input
-                        id="username"
-                        {...register('username', { required: 'Username không được để trống' })}
+                        id="email"
+                        {...register('email', { required: 'email không được để trống' })}
                         className="border border-gray-300 p-3 w-full rounded text-gray-700 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
                     />
-                    {errors.username && <p className="text-red-500 text-sm">{errors.username.message}</p>}
+                    {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
                 </div>
 
                 <div className="mb-4">

@@ -36,6 +36,7 @@ export default function Login() {
 
             if (response.ok) {
                 localStorage.setItem('token', result.data.access_token);
+                // console.log("ACESSS_TOKEN", result.data.access_token)
                 
                 // Lưu thông tin người dùng vào context
                 login(result.data.user);
@@ -60,7 +61,7 @@ export default function Login() {
                     <input
                         {...register('username', { required: 'Username không được để trống' })}
                         placeholder="Username"
-                        className="border border-gray-300 p-3 w-full mb-4 rounded focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+                        className="border border-gray-300 p-3 w-full mb-4 rounded focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200  text-black"
                     />
                     {errors.username && <p className="text-red-500 text-sm">{errors.username.message}</p>}
                     <label className="block text-gray-700 mb-2">Password</label>
@@ -69,7 +70,7 @@ export default function Login() {
                             {...register('password', { required: 'Mật khẩu không được để trống' })}
                             type={showPassword ? 'text' : 'password'}
                             placeholder="Password"
-                            className="border border-gray-300 p-3 w-full mb-4 rounded focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200"
+                            className="border border-gray-300 p-3 w-full mb-4 rounded focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200  text-black"
                         />
                         <span
                             className="absolute inset-y-0 right-0 pr-3 flex items-center cursor-pointer"
